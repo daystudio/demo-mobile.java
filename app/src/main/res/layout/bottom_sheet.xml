@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Avatar"
+            android:textColor="#737373"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Avatar Image Path"
+            android:inputType="text"
+            android:text="https://s3-ap-southeast-1.amazonaws.com/k.demo-mobile/steve.png" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Name"
+            android:textColor="#737373"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_u"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Person posting"
+            android:inputType="text"
+            android:text="Steve Jobs" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Time"
+            android:textColor="#737373"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_t"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="e.g. 2020-01-01"
+            android:inputType="text"
+            android:text="2019-12-31" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Content"
+            android:textColor="#737373"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Write the description here"
+            android:inputType="text"
+            android:text="Toy Story 5: Woody, Buzz Lightyear and the rest of the gang embark on a road trip with Bonnie and a new toy named Forky." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Image"
+            android:textColor="#737373"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_i"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Main Image Path"
+            android:inputType="text"
+            android:text="https://s3-ap-southeast-1.amazonaws.com/k.demo-mobile/toystory4.jpg" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_post"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Post" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"></View>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
